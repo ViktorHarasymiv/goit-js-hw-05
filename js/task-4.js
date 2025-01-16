@@ -44,9 +44,10 @@ const clients = [
   }
 ];
 
-console.log(`Male : ${getTotalBalanceByGender(clients, "male")}`); // 12053
 
-console.log(`Female : ${getTotalBalanceByGender(clients, "female")}`); // 8863
+console.log(getTotalBalanceByGender(clients, "male")); // 12053
+
+console.log(getTotalBalanceByGender(clients, "female")); // 8863
 
 
 console.log("↑");
